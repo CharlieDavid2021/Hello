@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840AE49526710746003858B3 /* TextRelated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840AE49426710746003858B3 /* TextRelated.swift */; };
+		840AE49626710746003858B3 /* TextRelated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840AE49426710746003858B3 /* TextRelated.swift */; };
 		8446979A266D012300BEAF50 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84469799266D012300BEAF50 /* Tests_iOS.swift */; };
 		844697A5266D012300BEAF50 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844697A4266D012300BEAF50 /* Tests_macOS.swift */; };
 		844697A7266D012300BEAF50 /* HelloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8446977E266D012200BEAF50 /* HelloApp.swift */; };
@@ -15,6 +17,8 @@
 		844697AA266D012300BEAF50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8446977F266D012200BEAF50 /* ContentView.swift */; };
 		844697AB266D012300BEAF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84469780266D012300BEAF50 /* Assets.xcassets */; };
 		844697AC266D012300BEAF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84469780266D012300BEAF50 /* Assets.xcassets */; };
+		84C525A02673A72100257D48 /* ControlRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5259F2673A72100257D48 /* ControlRelatedViews.swift */; };
+		84C525A12673A72100257D48 /* ControlRelatedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C5259F2673A72100257D48 /* ControlRelatedViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840AE49426710746003858B3 /* TextRelated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRelated.swift; sourceTree = "<group>"; };
 		8446977E266D012200BEAF50 /* HelloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloApp.swift; sourceTree = "<group>"; };
 		8446977F266D012200BEAF50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84469780266D012300BEAF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		844697A0266D012300BEAF50 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844697A4266D012300BEAF50 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		844697A6266D012300BEAF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C5259F2673A72100257D48 /* ControlRelatedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlRelatedViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 			children = (
 				8446977E266D012200BEAF50 /* HelloApp.swift */,
 				8446977F266D012200BEAF50 /* ContentView.swift */,
+				840AE49426710746003858B3 /* TextRelated.swift */,
+				84C5259F2673A72100257D48 /* ControlRelatedViews.swift */,
 				84469780266D012300BEAF50 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,6 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C525A02673A72100257D48 /* ControlRelatedViews.swift in Sources */,
+				840AE49526710746003858B3 /* TextRelated.swift in Sources */,
 				844697A9266D012300BEAF50 /* ContentView.swift in Sources */,
 				844697A7266D012300BEAF50 /* HelloApp.swift in Sources */,
 			);
@@ -317,6 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C525A12673A72100257D48 /* ControlRelatedViews.swift in Sources */,
+				840AE49626710746003858B3 /* TextRelated.swift in Sources */,
 				844697AA266D012300BEAF50 /* ContentView.swift in Sources */,
 				844697A8266D012300BEAF50 /* HelloApp.swift in Sources */,
 			);
