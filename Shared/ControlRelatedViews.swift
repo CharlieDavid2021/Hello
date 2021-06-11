@@ -37,7 +37,8 @@ struct ControlRelatedViews: View {
                 }
                 .frame(height: 80)
                 .padding()
-                .background(Color("WhiteDarkMode"))
+//                .background(Color("WhiteDarkMode"))
+                .background(Color.init(red: 100, green: 100, blue: 100))
                 .cornerRadius(15)
                 .shadow(radius: 3)
                 .padding(.horizontal)
@@ -60,7 +61,8 @@ struct ControlRelatedViews: View {
                 }
                 .frame(height: 80)
                 .padding()
-                .background(Color("WhiteDarkMode"))
+//                .background(Color("WhiteDarkMode"))
+                .background(Color.init(red: 100, green: 100, blue: 100))
                 .cornerRadius(15)
                 .shadow(radius: 3)
                 .padding(.trailing)
@@ -130,7 +132,8 @@ struct ControlRelatedViews: View {
                 }
                 .frame(height: 120)
                 .padding()
-                .background(Color("WhieDarkMode"))
+//                .background(Color("WhieDarkMode"))
+                .background(Color.init(red: 100, green: 100, blue: 100))
                 .cornerRadius(15)
                 .shadow(radius: 3)
                 .padding(.horizontal)
@@ -148,7 +151,8 @@ struct ControlRelatedViews: View {
                 }
                 .frame(height: 120)
                 .padding()
-                .background(Color("WhiteDarkMode"))
+//                .background(Color("WhiteDarkMode"))
+                .background(Color.init(red: 100, green: 100, blue: 100))
                 .cornerRadius(15)
                 .shadow(radius: 3)
                 .padding(.trailing)
@@ -163,7 +167,8 @@ struct ControlRelatedViews: View {
                 }
                 .frame(height: 120)
                 .padding()
-                .background(Color("WhiteDarkMode"))
+//                .background(Color("WhiteDarkMode"))
+                .background(Color.init(red: 100, green: 100, blue: 100))
                 .cornerRadius(15)
                 .shadow(radius: 3)
                 .padding(.trailing)
@@ -177,7 +182,7 @@ struct ControlRelatedViews: View {
 struct ControlRelatedViews_Previews: PreviewProvider {
     static var previews: some View {
         ControlRelatedViews()
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
     }
 }
 
@@ -186,7 +191,8 @@ struct CardModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .padding()
-            .background(Color("WhiteDarkMode"))
+//            .background(Color("WhiteDarkMode"))
+            .background(Color.init(red: 100, green: 100, blue: 100))
             .cornerRadius(15)
             .shadow(radius: 3)
             .padding(.horizontal)
